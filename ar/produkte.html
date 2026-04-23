@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>المنتجات</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+	    margin: 0;
+            background-color: #fafafa;
+            direction: rtl;
+        }
+
+        h1 {
+            text-align: center;
+        }
+nav {
+    background: #111;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 220px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<nav>
+    <a href="/ar/">الرئيسية</a>
+    <a href="/ar/produkte.html">المنتجات</a>
+    <a href="/ar/kontakt.html">تواصل</a>
+    <a href="/">English</a>
+</nav>
+
+<h1>منتجاتنا</h1>
+
+<div class="products">
+
+    <div class="card">
+        <img src="/images/perfume.jpg">
+        <h3>عطر</h3>
+        <p>عطر فاخر</p>
+    </div>
+
+    <div class="card">
+        <img src="/images/bag.jpg">
+        <h3>حقيبة</h3>
+        <p>حقيبة أنيقة</p>
+    </div>
+
+    <div class="card">
+        <img src="/images/perfume.jpg">
+        <h3>عطر مميز</h3>
+        <p>رائحة فريدة</p>
+    </div>
+
+    <div class="card">
+        <img src="/images/bag.jpg">
+        <h3>حقيبة يد</h3>
+        <p>عصرية وأنيقة</p>
+    </div>
+
+</div>
+
+</body>
+</html>

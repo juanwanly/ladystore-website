@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+	    margin: 0;
+            background-color: #fafafa;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 220px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+nav {
+    background: #111;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+    </style>
+</head>
+
+<body>
+<nav>
+    <a href="/">Home</a>
+    <a href="/produkte.html">Products</a>
+    <a href="/kontakt.html">Contact</a>
+    <a href="/ar/">العربية</a>
+</nav>
+<h1>Our Products</h1>
+
+<div class="products">
+
+    <div class="card">
+        <img src="/images/perfume.jpg">
+        <h3>Perfume</h3>
+        <p>Luxury fragrance</p>
+    </div>
+
+    <div class="card">
+        <img src="/images/bag.jpg">
+        <h3>Bag</h3>
+        <p>Elegant fashion bag</p>
+    </div>
+
+    <div class="card">
+        <img src="/images/perfume.jpg">
+        <h3>Premium Perfume</h3>
+        <p>Exclusive scent</p>
+    </div>
+
+    <div class="card">
+        <img src="/images/bag.jpg">
+        <h3>Handbag</h3>
+        <p>Stylish and modern</p>
+    </div>
+
+</div>
+
+</body>
+</html>

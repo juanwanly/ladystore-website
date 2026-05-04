@@ -25,13 +25,42 @@ nav a {
 }
 
 .hero {
-    background: linear-gradient(to right, #f8cdda, #f9f9f9);
-    padding: 60px;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url("/images/perfume.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
     text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .hero h1 {
-    margin-bottom: 10px;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background: white;
+    color: #111;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-btn:hover {
+    background: #f8cdda;
 }
 
 .products {
@@ -78,8 +107,11 @@ img {
 </nav>
 
 <div class="hero">
-    <h1>Lady Store Damascus 💄</h1>
-    <p>Perfumes, cosmetics and fashion bags</p>
+    <div class="hero-content">
+        <h1>Welcome to Lady Store Beauty</h1>
+        <p>Discover premium perfumes, cosmetics and stylish bags</p>
+        <a class="hero-btn" href="/produkte.html">View Products</a>
+    </div>
 </div>
 
 <div class="products">
